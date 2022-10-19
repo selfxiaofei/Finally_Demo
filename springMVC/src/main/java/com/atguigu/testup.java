@@ -37,7 +37,9 @@ public class testup {
         String finalPath = multipartFile1 + File.separator + originalFilename;
         //实现上传功能
         multipartFile.transferTo(new File(finalPath));
+        System.out.println("第二版本");
         return "successmm";
+
     }
 
 
